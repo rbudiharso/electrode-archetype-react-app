@@ -1,0 +1,209 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+.production-env	arch-gulpfile.js	/^  ".production-env": () => setProductionEnv(),$/;"	p	class:const
+ContextReplacementPlugin	config/webpack/partial/locales.js	/^var ContextReplacementPlugin = archetype.devRequire("webpack").ContextReplacementPlugin;$/;"	v
+DefinePlugin	config/webpack/partial/define.js	/^var DefinePlugin = archetype.devRequire("webpack").DefinePlugin;$/;"	v
+ExtractTextPlugin	config/webpack/partial/dev.js	/^var ExtractTextPlugin = archetype.devRequire("extract-text-webpack-plugin");$/;"	v
+ExtractTextPlugin	config/webpack/partial/extract.js	/^var ExtractTextPlugin = archetype.devRequire("extract-text-webpack-plugin");$/;"	v
+IsomorphicLoaderPlugin	config/webpack/partial/isomorphic.js	/^var IsomorphicLoaderPlugin = require("isomorphic-loader\/lib\/webpack-plugin");$/;"	v
+LOCALES	config/webpack/partial/locales.js	/^var LOCALES = ["en"];$/;"	v
+MAIN_PATH	config/karma/karma.conf.js	/^var MAIN_PATH = Path.join(__dirname, "\/entry.js");$/;"	v
+MESSAGES_PATTERN	scripts/l10n/flatten-messages.js	/^var MESSAGES_PATTERN = ".\/tmp\/messages\/**\/*.json";$/;"	v
+PREPROCESSORS	config/karma/karma.conf.js	/^var PREPROCESSORS = {};$/;"	v
+Path	config/archetype.js	/^var Path = require("path");$/;"	v
+Path	config/karma/karma.conf.js	/^var Path = require("path");$/;"	v
+Path	config/webpack/base-test.js	/^var Path = archetype.PlatformPath;$/;"	v
+Path	config/webpack/base.js	/^var Path = archetype.PlatformPath;$/;"	v
+Path	config/webpack/partial/extract.js	/^var Path = archetype.PlatformPath;$/;"	v
+Path	config/webpack/webpack.config.hot.js	/^var Path = archetype.PlatformPath;$/;"	v
+PlatformPath	config/archetype.js	/^var PlatformPath = Path[process.platform] || Path;$/;"	v
+Promise	scripts/l10n/flatten-messages.js	/^var Promise = require("bluebird");$/;"	v
+RAW_MESSAGES_DIR	scripts/l10n/flatten-messages.js	/^var RAW_MESSAGES_DIR = ".\/dist\/";$/;"	v
+RAW_MESSAGES_NAME	scripts/l10n/flatten-messages.js	/^var RAW_MESSAGES_NAME = "raw-messages.json";$/;"	v
+SourceMapDevToolPlugin	config/webpack/partial/sourcemaps-remote.js	/^var SourceMapDevToolPlugin = archetype.devRequire("webpack").SourceMapDevToolPlugin;$/;"	v
+StatsWriterPlugin	config/webpack/partial/stats.js	/^var StatsWriterPlugin = archetype.devRequire("webpack-stats-plugin").StatsWriterPlugin;$/;"	v
+WebpackReporter	config/webpack/partial/dev.js	/^var WebpackReporter = archetype.devRequire("electrode-webpack-reporter");$/;"	v
+_	config/webpack/base.js	/^var _ = require("lodash");$/;"	v
+_	config/webpack/partial/optimize.js	/^var _ = archetype.devRequire("lodash");$/;"	v
+_	config/webpack/webpack.config.browsercoverage.js	/^var _ = require("lodash");$/;"	v
+_	config/webpack/webpack.config.coverage.js	/^var _ = archetype.devRequire("lodash");$/;"	v
+_	config/webpack/webpack.config.dev.js	/^var _ = archetype.devRequire("lodash");$/;"	v
+_	config/webpack/webpack.config.dev.static.js	/^var _ = archetype.devRequire("lodash");$/;"	v
+_	config/webpack/webpack.config.hot.js	/^var _ = archetype.devRequire("lodash");$/;"	v
+_	config/webpack/webpack.config.js	/^var _ = require("lodash");$/;"	v
+_	config/webpack/webpack.config.stats.electrify.js	/^var _ = archetype.devRequire("lodash");$/;"	v
+_	config/webpack/webpack.config.test.js	/^var _ = archetype.devRequire("lodash");$/;"	v
+_	scripts/l10n/flatten-messages.js	/^var _ = require("lodash");$/;"	v
+__wmlMultiBundle	config/webpack/base.js	/^  __wmlMultiBundle: multiBundle,$/;"	p	class:baseConfig
+appEntry	config/webpack/base.js	/^function appEntry() {$/;"	f
+archetype	config/webpack/base-test.js	/^var archetype = require("..\/archetype");$/;"	v
+archetype	config/webpack/base.js	/^var archetype = require("..\/archetype");$/;"	v
+archetype	config/webpack/partial/babel.js	/^var archetype = require("..\/..\/archetype");$/;"	v
+archetype	config/webpack/partial/coverage.js	/^var archetype = require("..\/..\/archetype");$/;"	v
+archetype	config/webpack/partial/define.js	/^var archetype = require("..\/..\/archetype");$/;"	v
+archetype	config/webpack/partial/dev.js	/^var archetype = require("..\/..\/archetype");$/;"	v
+archetype	config/webpack/partial/extract.js	/^var archetype = require("..\/..\/archetype");$/;"	v
+archetype	config/webpack/partial/fonts.js	/^var archetype = require("..\/..\/archetype");$/;"	v
+archetype	config/webpack/partial/hot.js	/^var archetype = require("..\/..\/archetype");$/;"	v
+archetype	config/webpack/partial/images.js	/^var archetype = require("..\/..\/archetype");$/;"	v
+archetype	config/webpack/partial/isomorphic.js	/^var archetype = require("..\/..\/archetype");$/;"	v
+archetype	config/webpack/partial/locales.js	/^var archetype = require("..\/..\/archetype");$/;"	v
+archetype	config/webpack/partial/optimize.js	/^var archetype = require("..\/..\/archetype");$/;"	v
+archetype	config/webpack/partial/sourcemaps-inline.js	/^var archetype = require("..\/..\/archetype");$/;"	v
+archetype	config/webpack/partial/sourcemaps-remote.js	/^var archetype = require("..\/..\/archetype");$/;"	v
+archetype	config/webpack/partial/stats.js	/^var archetype = require("..\/..\/archetype");$/;"	v
+archetype	config/webpack/webpack.config.coverage.js	/^var archetype = require("..\/archetype");$/;"	v
+archetype	config/webpack/webpack.config.dev.js	/^var archetype = require("..\/archetype");$/;"	v
+archetype	config/webpack/webpack.config.dev.static.js	/^var archetype = require("..\/archetype");$/;"	v
+archetype	config/webpack/webpack.config.hot.js	/^var archetype = require("..\/archetype");$/;"	v
+archetype	config/webpack/webpack.config.stats.electrify.js	/^var archetype = require("..\/archetype");$/;"	v
+archetype	config/webpack/webpack.config.test.js	/^var archetype = require("..\/archetype");$/;"	v
+archetypeDevNodeModules	config/webpack/base.js	/^var archetypeDevNodeModules = Path.join(archetype.devPath, "node_modules");$/;"	v
+archetypeNodeModules	config/webpack/base.js	/^var archetypeNodeModules = Path.join(__dirname, "..\/..\/node_modules");$/;"	v
+atImport	config/webpack/partial/extract.js	/^var atImport = archetype.devRequire("postcss-import");$/;"	v
+autoprefixer	config/webpack/partial/extract.js	/^var autoprefixer = archetype.devRequire("autoprefixer-stylus");$/;"	v
+babel	config/webpack/webpack.config.hot.js	/^var babel = _.find(config.module.loaders, {name: "babel"});$/;"	v
+babelConfig	config/webpack/base.js	/^var babelConfig = require(".\/partial\/babel");$/;"	v
+baseConfig	config/webpack/base-test.js	/^var baseConfig = require(".\/base.js");$/;"	v
+baseConfig	config/webpack/webpack.config.browsercoverage.js	/^var baseConfig = require(".\/base.js");$/;"	v
+baseConfig	config/webpack/webpack.config.dev.js	/^var baseConfig = require(".\/base.js");$/;"	v
+baseConfig	config/webpack/webpack.config.dev.static.js	/^var baseConfig = require(".\/base.js");$/;"	v
+baseConfig	config/webpack/webpack.config.hot.js	/^var baseConfig = require(".\/base.js");$/;"	v
+baseConfig	config/webpack/webpack.config.js	/^var baseConfig = require(".\/base.js");$/;"	v
+baseConfig	config/webpack/webpack.config.stats.electrify.js	/^var baseConfig = require(".\/base.js");$/;"	v
+cache	config/webpack/base.js	/^  cache: true,$/;"	p	class:baseConfig
+chai	config/karma/entry.js	/^var chai = require("chai");$/;"	v
+chai	config/mocha/setup.js	/^var chai = require("chai");$/;"	v
+checkFileExists	arch-gulpfile.js	/^function checkFileExists(path) {$/;"	f
+checkFrontendCov	arch-gulpfile.js	/^function checkFrontendCov(minimum) {$/;"	f
+clientSrcDir	config/archetype.js	/^  clientSrcDir: "client",$/;"	p	class:module.exports
+config	config/webpack/webpack.config.hot.js	/^var config = module.exports = _.flow($/;"	v
+context	config/webpack/base.js	/^  context: context,$/;"	p	class:baseConfig
+context	config/webpack/base.js	/^var context = Path.resolve(archetype.clientSrcDir);$/;"	v
+coverageConfig	config/webpack/webpack.config.browsercoverage.js	/^var coverageConfig = require(".\/partial\/coverage");$/;"	v
+coverageConfig	config/webpack/webpack.config.coverage.js	/^var coverageConfig = require(".\/partial\/coverage");$/;"	v
+createElectrodeTmpDir	arch-gulpfile.js	/^function createElectrodeTmpDir() {$/;"	f
+cssLoader	config/webpack/partial/extract.js	/^var cssLoader = archetype.devRequire.resolve("css-loader");$/;"	v
+cssModuleHook	supports.js	/^  cssModuleHook: require("css-modules-require-hook"),$/;"	p	class:module.exports
+cssModuleSupport	config/webpack/partial/extract.js	/^var cssModuleSupport = true;$/;"	v
+cssnext	config/webpack/partial/extract.js	/^var cssnext = archetype.devRequire("postcss-cssnext");$/;"	v
+debug	config/webpack/base.js	/^  debug: false,$/;"	p	class:baseConfig
+defineConfig	config/webpack/webpack.config.browsercoverage.js	/^var defineConfig = require(".\/partial\/define.js");$/;"	v
+defineConfig	config/webpack/webpack.config.dev.js	/^var defineConfig = require(".\/partial\/define.js");$/;"	v
+defineConfig	config/webpack/webpack.config.dev.static.js	/^var defineConfig = require(".\/partial\/define.js");$/;"	v
+defineConfig	config/webpack/webpack.config.hot.js	/^var defineConfig = require(".\/partial\/define.js");$/;"	v
+defineConfig	config/webpack/webpack.config.js	/^var defineConfig = require(".\/partial\/define.js");$/;"	v
+dev	config/karma/karma.conf.watch.js	/^var dev = require(".\/karma.conf.dev");$/;"	v
+devConfig	config/webpack/webpack.config.dev.js	/^var devConfig = require(".\/partial\/dev.js");$/;"	v
+devConfig	config/webpack/webpack.config.dev.static.js	/^var devConfig = require(".\/partial\/dev.js");$/;"	v
+devConfig	config/webpack/webpack.config.hot.js	/^var devConfig = require(".\/partial\/dev.js");$/;"	v
+devRequire	config/archetype.js	/^  devRequire: require("electrode-archetype-react-app-dev\/require"),$/;"	p	class:module.exports
+entry	config/webpack/base.js	/^  entry: entry,$/;"	p	class:baseConfig
+extractStylesConfig	config/webpack/base.js	/^var extractStylesConfig = require(".\/partial\/extract");$/;"	v
+fileLoader	config/webpack/partial/fonts.js	/^var fileLoader = archetype.devRequire.resolve("file-loader");$/;"	v
+fileLoader	config/webpack/partial/images.js	/^var fileLoader = archetype.devRequire.resolve("file-loader");$/;"	v
+filename	config/webpack/partial/stats.js	/^    filename: "..\/server\/stats.json"$/;"	p	class:module.exports.statsOptions
+fontsConfig	config/webpack/base.js	/^var fontsConfig = require(".\/partial\/fonts");$/;"	v
+fs	config/webpack/base.js	/^var fs = require("fs");$/;"	v
+fs	config/webpack/partial/dev.js	/^var fs = require("fs");$/;"	v
+fs	scripts/l10n/flatten-messages.js	/^var fs = Promise.promisifyAll(require("fs-extra"));$/;"	v
+generateServiceWorker	arch-gulpfile.js	/^function generateServiceWorker() {$/;"	f
+getAllDefaultMessages	scripts/l10n/flatten-messages.js	/^var getAllDefaultMessages = function getAllDefaultMessages(messageFilesPathPattern) {$/;"	f
+getDefaultEntry	config/webpack/partial/hot.js	/^var getDefaultEntry = function (entry) {$/;"	f
+getFilePaths	scripts/l10n/flatten-messages.js	/^var getFilePaths = Promise.promisify(require("glob"));$/;"	v
+getInt	config/archetype.js	/^function getInt(str, def) {$/;"	f
+getMultiBundleEntry	config/webpack/partial/hot.js	/^var getMultiBundleEntry = function (entries) {$/;"	f
+glob	config/webpack/partial/extract.js	/^var glob = archetype.devRequire("glob");$/;"	v
+hotConfig	config/webpack/webpack.config.hot.js	/^var hotConfig = require(".\/partial\/hot");$/;"	v
+imagesConfig	config/webpack/base.js	/^var imagesConfig = require(".\/partial\/images");$/;"	v
+inlineSourcemapsConfig	config/webpack/webpack.config.browsercoverage.js	/^var inlineSourcemapsConfig = require(".\/partial\/sourcemaps-inline");$/;"	v
+inlineSourcemapsConfig	config/webpack/webpack.config.coverage.js	/^var inlineSourcemapsConfig = require(".\/partial\/sourcemaps-inline");$/;"	v
+inlineSourcemapsConfig	config/webpack/webpack.config.test.js	/^var inlineSourcemapsConfig = require(".\/partial\/sourcemaps-inline");$/;"	v
+inspectpack	config/webpack/base.js	/^var inspectpack = process.env.INSPECTPACK_DEBUG === "true";$/;"	v
+inspectpack	config/webpack/partial/optimize.js	/^var inspectpack = process.env.INSPECTPACK_DEBUG === "true";$/;"	v
+isomorphicConfig	config/webpack/base.js	/^var isomorphicConfig = require(".\/partial\/isomorphic");$/;"	v
+isomorphicLoader	config/webpack/partial/images.js	/^var isomorphicLoader = require.resolve("isomorphic-loader");$/;"	v
+ispartaLoader	config/webpack/partial/coverage.js	/^var ispartaLoader = archetype.devRequire.resolve("isparta-loader");$/;"	v
+karmaConf	config/karma/karma.conf.coverage.js	/^var karmaConf = require(".\/karma.conf");$/;"	v
+localesConfig	config/webpack/webpack.config.browsercoverage.js	/^var localesConfig = require(".\/partial\/locales");$/;"	v
+localesConfig	config/webpack/webpack.config.js	/^var localesConfig = require(".\/partial\/locales");$/;"	v
+mergeWebpackConfig	config/webpack/base-test.js	/^var mergeWebpackConfig = archetype.devRequire("webpack-partial").default;$/;"	v
+mergeWebpackConfig	config/webpack/base.js	/^var mergeWebpackConfig = archetype.devRequire("webpack-partial").default;$/;"	v
+mergeWebpackConfig	config/webpack/partial/babel.js	/^var mergeWebpackConfig = archetype.devRequire("webpack-partial").default;$/;"	v
+mergeWebpackConfig	config/webpack/partial/coverage.js	/^var mergeWebpackConfig = archetype.devRequire("webpack-partial").default;$/;"	v
+mergeWebpackConfig	config/webpack/partial/define.js	/^var mergeWebpackConfig = archetype.devRequire("webpack-partial").default;$/;"	v
+mergeWebpackConfig	config/webpack/partial/dev.js	/^var mergeWebpackConfig = archetype.devRequire("webpack-partial").default;$/;"	v
+mergeWebpackConfig	config/webpack/partial/extract.js	/^var mergeWebpackConfig = archetype.devRequire("webpack-partial").default;$/;"	v
+mergeWebpackConfig	config/webpack/partial/fonts.js	/^var mergeWebpackConfig = archetype.devRequire("webpack-partial").default;$/;"	v
+mergeWebpackConfig	config/webpack/partial/hot.js	/^var mergeWebpackConfig = archetype.devRequire("webpack-partial").default;$/;"	v
+mergeWebpackConfig	config/webpack/partial/images.js	/^var mergeWebpackConfig = archetype.devRequire("webpack-partial").default;$/;"	v
+mergeWebpackConfig	config/webpack/partial/isomorphic.js	/^var mergeWebpackConfig = archetype.devRequire("webpack-partial").default;$/;"	v
+mergeWebpackConfig	config/webpack/partial/locales.js	/^var mergeWebpackConfig = archetype.devRequire("webpack-partial").default;$/;"	v
+mergeWebpackConfig	config/webpack/partial/optimize.js	/^var mergeWebpackConfig = archetype.devRequire("webpack-partial").default;$/;"	v
+mergeWebpackConfig	config/webpack/partial/sourcemaps-inline.js	/^var mergeWebpackConfig = archetype.devRequire("webpack-partial").default;$/;"	v
+mergeWebpackConfig	config/webpack/partial/sourcemaps-remote.js	/^var mergeWebpackConfig = archetype.devRequire("webpack-partial").default;$/;"	v
+mergeWebpackConfig	config/webpack/partial/stats.js	/^var mergeWebpackConfig = archetype.devRequire("webpack-partial").default;$/;"	v
+mergeWebpackConfig	config/webpack/webpack.config.browsercoverage.js	/^var mergeWebpackConfig = require("webpack-partial").default;$/;"	v
+mergeWebpackConfig	config/webpack/webpack.config.coverage.js	/^var mergeWebpackConfig = archetype.devRequire("webpack-partial").default;$/;"	v
+mergeWebpackConfig	config/webpack/webpack.config.dev.js	/^var mergeWebpackConfig = archetype.devRequire("webpack-partial").default;$/;"	v
+mergeWebpackConfig	config/webpack/webpack.config.dev.static.js	/^var mergeWebpackConfig = archetype.devRequire("webpack-partial").default;$/;"	v
+mergeWebpackConfig	config/webpack/webpack.config.hot.js	/^var mergeWebpackConfig = archetype.devRequire("webpack-partial").default;$/;"	v
+mergeWebpackConfig	config/webpack/webpack.config.js	/^var mergeWebpackConfig = require("webpack-partial").default;$/;"	v
+mergeWebpackConfig	config/webpack/webpack.config.stats.electrify.js	/^var mergeWebpackConfig = archetype.devRequire("webpack-partial").default;$/;"	v
+mergeWebpackConfig	config/webpack/webpack.config.test.js	/^var mergeWebpackConfig = archetype.devRequire("webpack-partial").default;$/;"	v
+module	config/webpack/base-test.js	/^  module: {$/;"	p	class:testConfig
+module.exports	config/karma/karma.conf.coverage.js	/^module.exports = function (config) {$/;"	f
+module.exports	config/karma/karma.conf.dev.js	/^module.exports = function (config) {$/;"	f
+module.exports	config/karma/karma.conf.js	/^module.exports = function (config) {$/;"	f
+module.exports	config/karma/karma.conf.watch.js	/^module.exports = function (config) {$/;"	f
+module.exports	config/webpack/partial/babel.js	/^module.exports = function (babel) {$/;"	f
+module.exports	config/webpack/partial/coverage.js	/^module.exports = function () {$/;"	f
+module.exports	config/webpack/partial/define.js	/^module.exports = function () {$/;"	f
+module.exports	config/webpack/partial/dev.js	/^module.exports = function () {$/;"	f
+module.exports	config/webpack/partial/extract.js	/^module.exports = function () {$/;"	f
+module.exports	config/webpack/partial/fonts.js	/^module.exports = function () {$/;"	f
+module.exports	config/webpack/partial/hot.js	/^module.exports = function () {$/;"	f
+module.exports	config/webpack/partial/images.js	/^module.exports = function () {$/;"	f
+module.exports	config/webpack/partial/isomorphic.js	/^module.exports = function () {$/;"	f
+module.exports	config/webpack/partial/locales.js	/^module.exports = function () {$/;"	f
+module.exports	config/webpack/partial/optimize.js	/^module.exports = function () {$/;"	f
+module.exports	config/webpack/partial/sourcemaps-inline.js	/^module.exports = function () {$/;"	f
+module.exports	config/webpack/partial/sourcemaps-remote.js	/^module.exports = function () {$/;"	f
+module.exports	config/webpack/partial/stats.js	/^module.exports = function (opts) {$/;"	f
+multiBundle	config/webpack/base.js	/^var multiBundle = _.isObject(entry);$/;"	v
+notifyBundleValid	config/webpack/partial/dev.js	/^function notifyBundleValid() {$/;"	f
+optimize	config/webpack/partial/optimize.js	/^var optimize = archetype.devRequire("webpack").optimize;$/;"	v
+optimizeConfig	config/webpack/webpack.config.browsercoverage.js	/^var optimizeConfig = require(".\/partial\/optimize");$/;"	v
+optimizeConfig	config/webpack/webpack.config.js	/^var optimizeConfig = require(".\/partial\/optimize");$/;"	v
+output	config/webpack/base.js	/^  output: {$/;"	p	class:baseConfig
+path	config/karma/karma.conf.coverage.js	/^var path = require("path");$/;"	v
+postcssLoader	config/webpack/partial/extract.js	/^var postcssLoader = archetype.devRequire.resolve("postcss-loader");$/;"	v
+productionSourcemapsConfig	config/webpack/webpack.config.js	/^var productionSourcemapsConfig = require(".\/partial\/sourcemaps-remote");$/;"	v
+readFileAsJSON	scripts/l10n/flatten-messages.js	/^var readFileAsJSON = function readFileAsJSON(filePath) {$/;"	f
+setOptimizeStats	arch-gulpfile.js	/^function setOptimizeStats() {$/;"	f
+setProductionEnv	arch-gulpfile.js	/^function setProductionEnv() {$/;"	f
+setStaticFilesEnv	arch-gulpfile.js	/^function setStaticFilesEnv() {$/;"	f
+setWebpackDev	arch-gulpfile.js	/^function setWebpackDev() {$/;"	f
+setupPath	arch-gulpfile.js	/^function setupPath() {$/;"	f
+sinonChai	config/karma/entry.js	/^var sinonChai = require("sinon-chai");$/;"	v
+sinonChai	config/mocha/setup.js	/^var sinonChai = require("sinon-chai");$/;"	v
+srcReq	config/karma/entry.js	/^var srcReq = require.context("client", true, \/^((?!app).)*\\.jsx?$\/);$/;"	v
+statsConfig	config/webpack/base.js	/^var statsConfig = require(".\/partial\/stats");$/;"	v
+statsConfig	config/webpack/webpack.config.stats.electrify.js	/^var statsConfig = require(".\/partial\/stats.js");$/;"	v
+statsOptions.transform	config/webpack/partial/stats.js	/^    statsOptions.transform = function (data) {$/;"	f
+styleLoader	config/webpack/partial/extract.js	/^var styleLoader = archetype.devRequire.resolve("style-loader");$/;"	v
+stylusLoader	config/webpack/partial/extract.js	/^var stylusLoader = archetype.devRequire.resolve("stylus-relative-loader");$/;"	v
+testConfig	config/webpack/webpack.config.coverage.js	/^var testConfig = require(".\/base-test.js");$/;"	v
+testConfig	config/webpack/webpack.config.test.js	/^var testConfig = require(".\/base-test.js");$/;"	v
+testsReq	config/karma/entry.js	/^var testsReq = require.context("test\/client", true, \/\\.spec.jsx?$\/);$/;"	v
+urlLoader	config/webpack/partial/fonts.js	/^var urlLoader = archetype.devRequire.resolve("url-loader");$/;"	v
+webpack	config/webpack/partial/dev.js	/^var webpack = archetype.devRequire("webpack");$/;"	v
+webpackCfg	config/karma/karma.conf.js	/^var webpackCfg = require("..\/webpack\/webpack.config.test");$/;"	v
+webpackCovCfg	config/karma/karma.conf.coverage.js	/^var webpackCovCfg = require("..\/webpack\/webpack.config.coverage");$/;"	v
+webpackDevReporter	config/webpack/partial/dev.js	/^function webpackDevReporter(reporterOptions) {$/;"	f
+writeFileAsJSON	scripts/l10n/flatten-messages.js	/^var writeFileAsJSON = function writeFileAsJSON(filePath, name, contents) {$/;"	f
+writeRawMessages	scripts/l10n/flatten-messages.js	/^var writeRawMessages = _.partial(writeFileAsJSON, RAW_MESSAGES_DIR, RAW_MESSAGES_NAME);$/;"	v

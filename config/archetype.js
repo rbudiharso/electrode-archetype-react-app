@@ -23,7 +23,7 @@ module.exports = {
   // package.json which **must** exist at a predictable location.
   devPath: Path.dirname(require.resolve("electrode-archetype-react-app-dev/package.json")),
   webpack: {
-    devHostname: "localhost",
+    devHostname: process.env.WEBPACK_DEV_HOST || "localhost",
     devPort: getInt(process.env.WEBPACK_DEV_PORT, 2992),
     testPort: getInt(process.env.WEBPACK_TEST_PORT, 3001),
     modulesDirectories: []
